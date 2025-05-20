@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Question</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/sweetalert2.min.css">
+    <link rel="icon" href="../assets/media/image/logo-unsub-baru.png">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header class="kepala mb-3">
+        <div class="container p-0">
+            <nav class="navbar navbar-expand-lg bg-white custom-rounded-navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-dark" href="../index.html">
+                        <img src="../assets/media/image/logo-unsub-baru.png" alt="logo unsub" width="30" class="d-inline-block align-text-middle me-2 ms-1">
+                        PMB UNSUB 2025
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-1 fw-medium">
+                            <li class="nav-item"><a class="nav-link text-dark" href="../index.html">Beranda</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="biaya_kuliah.html">Biaya Kuliah</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="fakultas.html">Fakultas</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="tentang.html">Tentang</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="hubungi_kami.html">Hubungi Kami</a></li>
+                            <li class="nav-item"><a class="nav-link text-dark me-2 active" href="FAQ.html">FAQ</a></li>
+                            <li class="nav-item"><a class="btn btn-primary rounded-pill" href="daftar.html">Daftar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>            
+        </div>
+
+        <div class="hero-text">FAQ</div>
+    </header>
+
+    <main>
+
+        <section class="py-5">
+            <div class="container">
+                <div class="hayo-apa">
+                    <h2 class="text-center fw-bold mb-4">Pertanyaan yang Sering Diajukan</h2>
+                    <p class="text-center text-muted mb-5">Temukan jawaban atas pertanyaan umum seputar layanan kami di bawah ini.</p>
+                </div>
+
+                <div class="mb-3">
+                    <input type="text" id="faqSearch" class="form-control" placeholder="Cari pertanyaan...">
+                </div>
+
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq1">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                                Apa itu Universitas Subang?
+                            </button>
+                        </h2>
+                        <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Universitas Subang adalah perguruan tinggi yang menyediakan berbagai program studi di berbagai fakultas.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                Kapan jadwal pendaftaran mahasiswa baru dibuka?
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Pendaftaran biasanya dibuka mulai bulan Januari hingga Agustus setiap tahunnya. Informasi resmi akan diumumkan melalui website dan media sosial kampus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq3">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                                Apa saja jalur masuk Universitas Subang?
+                            </button>
+                        </h2>
+                        <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+
+                                Tersedia beberapa jalur, antara lain:
+                                <ol>
+                                    <li>
+                                        Jalur Reguler
+                                    </li>
+                                    <li>
+                                        Jalur Beasiswa (KIP-K & Yayasan)
+                                    </li>
+                                    <li>
+                                        Jalur Prestasi Akademik & Non-akademik
+                                    </li>
+                                    <li>
+                                        Jalur Pindahan atau Alih Jenjang
+                                    </li>
+                                </ol>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                                Bagaimana cara mendaftar secara online?
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Calon mahasiswa dapat mengunjungi laman <a href="daftar.html">resmi PMB Universitas Subang</a>, mengisi formulir pendaftaran online, mengunggah dokumen, dan membayar biaya pendaftaran.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                                Apakah Universitas Subang menerima mahasiswa pindahan?
+                            </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Ya, kami menerima mahasiswa pindahan dari perguruan tinggi lain dengan proses verifikasi nilai dan kelengkapan dokumen akademik.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq6">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6">
+                                Apakah tersedia program KIP-K?
+                            </button>
+                        </h2>
+                        <div id="collapse6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Ya, Universitas Subang mendukung program KIP Kuliah. Calon pendaftar wajib mendaftar di situs resmi KIP Kuliah dan mengisi data dengan benar, lalu mengikuti seleksi internal kampus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq7">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7">
+                                Berapa biaya pendaftaran?
+                            </button>
+                        </h2>
+                        <div id="collapse7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Biaya pendaftaran Rp250.000. Informasi terbaru tersedia di laman resmi kampus.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq8">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8">
+                                Apakah ada tes masuk untuk calon mahasiswa baru?
+                            </button>
+                        </h2>
+                        <div id="collapse8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Untuk beberapa program studi, ya, kampus mengadakan tes seleksi tertulis atau wawancara. Namun, untuk jalur prestasi dan KIP-K, seleksi dapat berupa portofolio dan nilai akademik.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq9">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9">
+                                Bagaimana saya tahu kalau saya diterima?
+                            </button>
+                        </h2>
+                        <div id="collapse9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Pengumuman hasil seleksi akan dikirim melalui email dan dapat dicek di portal PMB. Pastikan menggunakan email aktif saat mendaftar.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="faq10">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10">
+                                Apakah Universitas Subang memiliki asrama?
+                            </button>
+                        </h2>
+                        <div id="collapse10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Saat ini, Universitas Subang belum memiliki asrama resmi. Namun, tersedia banyak kos dan kontrakan di sekitar kampus.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="bg-dark py-4">
+        <div class="container kaki">
+            <div class="d-flex justify-content-center mb-4">
+                <a href="#" class="mx-3">
+                  <i class="bi bi-instagram fs-4 text-white"></i>
+                </a>
+                <a href="#" class="mx-3">
+                  <i class="bi bi-facebook fs-4 text-white"></i>
+                </a>
+                <a href="#" class="mx-3">
+                  <i class="bi bi-youtube fs-4 text-white"></i>
+                </a>
+                <a href="#" class="mx-3">
+                    <i class="bi bi-tiktok fs-4 text-white"></i>
+                </a>
+                <a href="#" class="mx-3">
+                    <i class="bi bi-linkedin fs-4 text-white"></i>
+                </a>
+              </div>
+    
+            <div class="d-flex justify-content-center align-items-center gap-4 mb-4 flex-wrap">
+                <img src="../assets/media/image/logo-unsub-baru.png" alt="Unsub" width="70">
+                <img src="../assets/media/image/tut-wuri-handayani.png" alt="Tut Wuri" width="75">
+                <img src="../assets/media/image/kampus-merdeka.png" alt="Kampus Merdeka" width="80">
+            </div>
+    
+            <p class="text-white text-center mx-auto mb-3" style="max-width: 600px;">
+                Jl. Raden Ajeng Kartini No.KM. 3, Desa Nyimplung, Pasirkareumbi, Kec. Subang, Kabupaten Subang, Jawa Barat 41285
+            </p>
+    
+            <div class="d-flex justify-content-center gap-3 flex-wrap text-white small">
+                <a href="mailto:info@unsub.ac.id" class="text-white nav-link p-0">info@unsub.ac.id</a>
+                <span>|</span>
+                <span>(0260) 4240297</span>
+                <span>|</span>
+                <span>+62 857-2394-6700</span>
+            </div>
+        </div>
+        
+        <button id="scrollToTopBtn" title="Kembali ke Atas">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+    </footer>
+
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/sweetalert2.all.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
