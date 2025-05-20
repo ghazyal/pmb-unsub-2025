@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(to right, #0d6efd, #6610f2);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  .card {
+    border: none;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+  .form-control {
+    border-radius: 0.5rem;
+  }
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
